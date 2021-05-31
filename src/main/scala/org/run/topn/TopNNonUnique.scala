@@ -1,4 +1,4 @@
-package org.run
+package org.run.topn
 
 object TopNNonUnique {
 
