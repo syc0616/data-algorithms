@@ -3,8 +3,9 @@ package org.run.leftoutjoin
 import org.apache.spark.sql.{Row, SparkSession}
 
 object LeftOutJoinWithDataFrame {
+
   def main(args: Array[String]): Unit = {
-    val spark = SparkSession.builder().appName("DataFram").master("lcoal").getOrCreate()
+    val spark = SparkSession.builder().appName("DataFrame").master("lcoal").getOrCreate()
     val sc = spark.sparkContext
 
     import spark.implicits._
